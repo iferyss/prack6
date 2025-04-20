@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Путешествия по Москве</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Путешествия по Москве</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О себе</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero animate">
+            <h2>Мои приключения в Москве</h2>
+            <p>Исследуйте столицу России через мои заметки и фотографии!</p>
+            <img src="images/hero.jpg" alt="Панорама Москвы">
+            <button id="explore">Начать путешествие</button>
+        </section>
+        <section class="map-section">
+            <h2 class="animate">Карта моих путешествий</h2>
+            <div id="map"></div>
+        </section>
+        <section class="articles">
+            <h2 class="animate">Мои заметки</h2>
+            <article id="red-square" class="article animate">
+                <img src="images/red_square.jpg" alt="Красная площадь">
+                <h3>Красная площадь: Сердце Москвы</h3>
+                <p>Красная площадь — это не только главная площадь столицы, но и место, где оживает история. Я любовался величием Собора Василия Блаженного и смотрел на смену караула у Мавзолея.</p>
+                <a href="red-square.html">Читать полностью</a>
+            </article>
+            <article id="gorky-park" class="article animate">
+                <img src="images/gorky_park.jpg" alt="Парк Горького">
+                <h3>Парк Горького: Оазис в центре города</h3>
+                <p>Парк Горького — идеальное место для отдыха. Я катался на велосипеде, наслаждался видами Москвы-реки и пробовал местный стритфуд.</p>
+                <a href="gorky-park.html">Читать полностью</a>
+            </article>
+            <article id="vdnh" class="article animate">
+                <img src="images/vdnh.jpg" alt="ВДНХ">
+                <h3>ВДНХ: Путешествие в советскую эпоху</h3>
+                <p>ВДНХ поразила меня своими павильонами и фонтанами. Я посетил музей космонавтики и прокатился на колесе обозрения.</p>
+                <a href="vdnh.html">Читать полностью</a>
+            </article>
+            <article id="bolshoi" class="article animate">
+                <img src="images/bolshoi.jpg" alt="Большой театр">
+                <h3>Большой театр: Встреча с искусством</h3>
+                <p>Посещение Большого театра стало незабываемым. Я смотрел балет "Лебединое озеро" и был очарован архитектурой здания.</p>
+                <a href="bolshoi.html">Читать полностью</a>
+            </article>
+            <article id="zaryadye" class="article animate">
+                <img src="images/zaryadye.jpg" alt="Парк Зарядье">
+                <h3>Зарядье: Современная Москва</h3>
+                <p>Парк Зарядье — это сочетание природы и технологий. Я гулял по парящему мосту и наслаждался видами Кремля.</p>
+                <a href="zaryadye.html">Читать полностью</a>
+            </article>
+            <article id="kolomenskoye" class="article animate">
+                <img src="images/kolomenskoye.jpg" alt="Коломенское">
+                <h3>Коломенское: Историческая жемчужина</h3>
+                <p>Усадьба Коломенское — это место, где я почувствовал связь с прошлым. Церковь Вознесения и яблоневые сады создают умиротворяющую атмосферу.</p>
+                <a href="kolomenskoye.html">Читать полностью</a>
+            </article>
+            <article id="arbat" class="article animate">
+                <img src="images/arbat.jpg" alt="Арбат">
+                <h3>Арбат: Душа старой Москвы</h3>
+                <p>Прогулка по Арбату — это путешествие в богемную Москву. Я слушал уличных музыкантов, покупал сувениры и пробовал кофе в уютных кафе.</p>
+                <a href="arbat.html">Читать полностью</a>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Путешествия по Москве. Все права защищены.</p>
+    
+    </footer>
+    <button id="back-to-top">↑</button>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
